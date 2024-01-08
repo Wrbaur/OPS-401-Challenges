@@ -1,6 +1,7 @@
 # Script: Ops 401 Lab 1
 # Authur: Will B. with the help of ChatGPT
 # Date: 1/08/2024
+# Resources Google, Bard, ChatGPT
 
 # PowerShell cript to adjust auto screen lock
 
