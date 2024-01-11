@@ -61,7 +61,7 @@ def main():
 
     # Check for environment variables first
     sender_email = "r.ruab630@gmail.com"
-    sender_password = "rsnk pfec jdxs kujl"
+    sender_password = "xxxx xxxx xxxx xxxx"
     receiver_email = input("Enter the administrator's email address: ")
 
     previous_status = None
