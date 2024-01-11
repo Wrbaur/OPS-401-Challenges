@@ -60,7 +60,7 @@ def main():
     target_ip = input("Enter target IP address: ")
 
     # Check for environment variables first
-    sender_email = "r.ruab630@gmail.com"
+    sender_email = "XXXXXX630@gmail.com"
     sender_password = "xxxx xxxx xxxx xxxx"
     receiver_email = input("Enter the administrator's email address: ")
 
