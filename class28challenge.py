@@ -2,7 +2,7 @@
 # Script: Ops 401 
 # Class 27 Challenge
 # Authur: Will B. with the help of ChatGPT
-# Date: 2/13/2024
+# Date: 2/14/2024
 # Resources Google, Gemini, ChatGPT, 
 # https://docs.python.org/3/howto/logging.html#logging-basic-tutorial
 # https://www.howtogeek.com/435903/what-are-stdin-stdout-and-stderr-on-linux/,
