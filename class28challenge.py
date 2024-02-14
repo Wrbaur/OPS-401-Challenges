@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # Script: Ops 401 
-# Class 27 Challenge
+# Class 28 Challenge
 # Authur: Will B. with the help of ChatGPT
 # Date: 2/14/2024
 # Resources Google, Gemini, ChatGPT, 
