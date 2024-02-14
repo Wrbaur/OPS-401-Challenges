@@ -9,9 +9,8 @@
 
 # Adding logging functionallity to a previous scrip now having them rotate based on size 
 
-
-
 import logging
+from logging.handlers import RotatingFileHandler
 import os
 import paramiko
 import time
@@ -21,8 +20,10 @@ log_folder = "challenge_log"
 if not os.path.exists(log_folder):
     os.makedirs(log_folder)
 
-# Set up logging
-logging.basicConfig(filename=os.path.join(log_folder, 'chall17.log'), level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
+# Set up logging with a rotating file handler
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+handler = RotatingFileHandler(os.path.join(log_folder, 'chall17.log'), maxBytes=20, backupCount=3)
+logging.getLogger().addHandler(handler)
 
 # Placeholder function for unzip_zip_file
 def unzip_zip_file(zipped_file, password):
