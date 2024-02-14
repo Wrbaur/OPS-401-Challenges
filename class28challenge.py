@@ -42,8 +42,8 @@ smtp_password = "your_smtp_password"
 
 def send_email(receiver_email, subject, body):
     # Specify the Gmail account for sending emails
-    sender_email = "r.ruab630@gmail.com"
-    sender_password = "rsnk pfec jdxs kujl"
+    sender_email = "email@gmail.com"
+    sender_password = "**** **** **** ****"
 
     message = MIMEMultipart()
     message["From"] = sender_email
