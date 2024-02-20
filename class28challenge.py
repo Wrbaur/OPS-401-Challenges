@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # Script: Ops 401 
-# Class 27 Challenge
+# Class 28 Challenge
 # Authur: Will B. with the help of ChatGPT
-# Date: 2/13/2024
+# Date: 2/14/2024
 # Resources Google, Gemini, ChatGPT, 
 # https://docs.python.org/3/howto/logging.html#logging-basic-tutorial
 # https://www.howtogeek.com/435903/what-are-stdin-stdout-and-stderr-on-linux/,
@@ -42,8 +42,8 @@ smtp_password = "your_smtp_password"
 
 def send_email(receiver_email, subject, body):
     # Specify the Gmail account for sending emails
-    sender_email = "r.ruab630@gmail.com"
-    sender_password = "rsnk pfec jdxs kujl"
+    sender_email = "email@gmail.com"
+    sender_password = "**** **** **** ****"
 
     message = MIMEMultipart()
     message["From"] = sender_email
